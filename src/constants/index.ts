@@ -19,18 +19,11 @@ import {
   starbucks,
   tesla,
   shopify,
-  project1,
-  project2,
-  project3,
-  project4,
-  project5,
-  project6,
   user1,
   user2,
   user3,
   youtube,
   linkedin,
-  twitter,
   github, blender,
 } from "../assets";
 
@@ -211,141 +204,235 @@ export const TESTIMONIALS = [
     company: "456 Enterprises",
     image: user3,
   },
+  {
+    testimonial:
+        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Lisa Wang",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: user3,
+  },
+  {
+    testimonial:
+        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Lisa Wang",
+    designation: "CTO",
+    company: "456 Enterprises",
+    image: user3,
+  },
 ] as const;
 
 // Projects
 export const PROJECTS = [
   {
-    name: "Disney+ Clone",
+    name: "Highway Ticket Management System",
     description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+      "This project is a Highway Ticket Management System designed to manage users, vehicles, tickets, and payments. It is built using a microservices architecture with Spring Boot and communicates through REST APIs.",
     tags: [
       {
-        name: "react",
+        name: "Spring Boot",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "MySQL",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Postman",
         color: "pink-text-gradient",
       },
     ],
-    image: project1,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app/",
+    image: 'https://aivision.asia/static/img/highway/toll%20gate-01.jpg',
+    source_code_link: "https://github.com/AmilSrinath/Highway-Ticket-Management-System",
   },
   {
-    name: "Golds Gym",
+    name: "Chat Application",
     description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
+      "This repository features a chat application built to facilitate real-time messaging between users. It includes both client-side and server-side code, showcasing how to implement chat functionalities with features like message sending, receiving, and user management.",
     tags: [
       {
-        name: "react",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "Maven",
         color: "pink-text-gradient",
       },
     ],
-    image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app/",
+    image: 'https://media.designrush.com/tinymce_images/402688/conversions/messenger-chat-app-design-content.jpg',
+    source_code_link: "https://github.com/AmilSrinath/ChatApplication",
   },
   {
-    name: "Shoppy",
+    name: "Shoe Management System",
     description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
+        "The AAD Course Work Front-End repository features a modern web application built with React and Material-UI. It highlights responsive design and reusable components, ensuring a smooth user experience across devices. Explore this project to see practical implementations of contemporary front-end technologies and best practices.",
     tags: [
       {
-        name: "react",
+        name: "Spring Boot",
         color: "blue-text-gradient",
       },
       {
-        name: "syncfusion",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "CSS",
         color: "pink-text-gradient",
       },
+      {
+        name: "MySQL",
+        color: "white-text-gradient",
+      },
     ],
-    image: project3,
-    source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-    live_site_link: "https://shoppy-dashboard-react.netlify.app/",
+    image: 'https://t3.ftcdn.net/jpg/06/12/00/18/360_F_612001823_TkzT0xmIgagoDCyQ0yuJYEGu8j6VNVYT.jpg',
+    source_code_link: "https://github.com/AmilSrinath/AAD_Course_Work_Front-End/tree/main",
   },
   {
-    name: "TikTok Clone",
+    name: "Connect 4 Game",
     description:
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
+      "It includes the game logic and user interface for this classic two-player board game where players aim to connect four of their pieces in a row. The project demonstrates game development principles and provides a functional example of the Connect 4 game.",
     tags: [
       {
-        name: "nextjs",
+        name: "OOP",
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "JavaFX",
         color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
+      }
     ],
-    image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
-    live_site_link: "https://tiktok-clone-react.vercel.app/",
+    image: 'https://i5.walmartimages.com/asr/68b095ca-0295-404c-97ab-0f4a74706b2e.332271406aadb09f155ae7c069904934.png',
+    source_code_link: "https://github.com/AmilSrinath/Connect_4_Game",
   },
   {
-    name: "Cryptoverse",
+    name: "Angular and Spring Boot Integration",
     description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
+      "This repository showcases a full-stack web application built with Angular and Spring Boot. It features seamless integration between the front-end and back-end, demonstrating how to develop, connect, and manage data flow between a client-side Angular application and a server-side Spring Boot API.",
     tags: [
       {
-        name: "react",
+        name: "Angular",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "Spring Boot ",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "MySQL",
         color: "pink-text-gradient",
       },
     ],
-    image: project5,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
-    live_site_link: "https://reactjscryptoapp.netlify.app/",
+    image: 'https://www.filepicker.io/api/file/fUQ7OU6CQxmF0pFCiNxu',
+    source_code_link: "https://github.com/AmilSrinath/Angular_SpringBoot",
   },
   {
-    name: "Travel Advisor",
+    name: "Arduino to JavaFX Integration",
     description:
-      "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
+      "This project demonstrates how to interface Arduino with JavaFX, allowing for real-time data visualization and control through a graphical user interface.",
     tags: [
       {
-        name: "react",
+        name: "Arduino",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "Java",
         color: "green-text-gradient",
       },
       {
-        name: "material-ui",
+        name: "JavaFX",
         color: "pink-text-gradient",
       },
     ],
-    image: project6,
-    source_code_link: "https://github.com/sanidhyy/travel-advisor",
-    live_site_link: "https://travel-advisor-reactjs.netlify.app/",
+    image: 'https://miro.medium.com/v2/resize:fit:720/1*1zyxNq15vwHfXUKTqtFuvw.png',
+    source_code_link: "https://github.com/AmilSrinath/Arduino_To_JavaFX",
+  },
+  {
+    name: "React Native with Firebase",
+    description:
+      "This repository provides a React Native project integrated with Firebase services. It demonstrates how to utilize Firebase for authentication, real-time database interactions, and other backend functionalities within a React Native mobile application.",
+    tags: [
+      {
+        name: "React Native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: 'https://www.mitrais.com/wp-content/uploads/2018/03/Firebase-React-Native-Integration.jpg',
+    source_code_link: "https://github.com/AmilSrinath/React-Native-Project-With-Firebase",
+  },
+  {
+    name: "Uber Eats Clone",
+    description:
+        "A responsive and feature-rich clone of Uber Eats built with React and Node.js. This project replicates the core functionalities of the popular food delivery service, including real-time order tracking, user authentication, and a streamlined UI for both customers and restaurant partners. Ideal for learning about full-stack development and API integration.",
+    tags: [
+      {
+        name: "React Native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: 'https://logos-world.net/wp-content/uploads/2020/11/Uber-Eats-Logo-2018.png',
+    source_code_link: "https://github.com/AmilSrinath/Uber-Eats-Clone",
+  },
+  {
+    name: "AMS POS System",
+    description:
+        "A comprehensive Point of Sale (POS) system designed for retail and restaurant environments. This project utilizes Java for backend development and features robust functionalities such as inventory management, sales tracking, and reporting. The system offers a user-friendly interface for managing transactions, employee roles, and financial summaries, making it a practical solution for streamlining business operations.",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaFX",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: 'https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/5a599058-0b6d-4d9e-8e8f-36430f4dc0a9.png',
+    source_code_link: "https://github.com/AmilSrinath/AMS_POS_System",
+  },
+  {
+    name: "Unical POS",
+    description:
+        "A versatile Point of Sale (POS) system developed to enhance retail and restaurant operations. Built with modern technologies, this project includes features such as sales processing, inventory management, and detailed reporting. Designed for ease of use and scalability, Unical POS provides a robust solution for managing transactions and business data efficiently.",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Java Swing",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: 'https://innoviti.com/wp-content/uploads/2022/08/POS-System.jpg',
+    source_code_link: "https://github.com/AmilSrinath/Unical_POS",
   },
 ] as const;
 
@@ -353,21 +440,16 @@ export const SOCIALS = [
   {
     name: "YouTube",
     icon: youtube,
-    link: "https://www.youtube.com/@OPGAMER.",
+    link: "https://youtube.com/@as-code?si=ztgXm4bVMytkh3pN",
   },
   {
     name: "Linkedin",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/sanidhyy",
-  },
-  {
-    name: "Twitter",
-    icon: twitter,
-    link: "https://twitter.com/TechnicalShubam",
+    link: "https://www.linkedin.com/in/amil-srinath-9498ba274/",
   },
   {
     name: "GitHub",
     icon: github,
-    link: "https://github.com/sanidhyy",
+    link: "https://github.com/AmilSrinath",
   },
 ] as const;
