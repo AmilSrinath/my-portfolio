@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import { close, bulb } from "../assets";
+import {useEffect} from "react";
 
 type BannerProps = {
   hide: boolean;
