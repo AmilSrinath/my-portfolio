@@ -49,21 +49,21 @@ export const NAV_LINKS = [
 // Services
 export const SERVICES = [
   {
-    title: "Web Developer",
+    title: "Backend Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "React Native Developer",
     icon: backend,
   },
   {
     title: "Content Creator",
     icon: creator,
-  },
+  }
 ] as const;
 
 // Technologies
