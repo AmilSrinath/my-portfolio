@@ -126,7 +126,7 @@ export const EXPERIENCES = [
   {
     title: "Demonstrator",
     company_name: "IJSE",
-    icon: starbucks,
+    icon: 'https://static.thenounproject.com/png/1568660-200.png',
     iconBg: "#383E56",
     date: "Aug 2022 - Aug 2023",
     points: [
@@ -138,7 +138,7 @@ export const EXPERIENCES = [
   {
     title: "Freelancer",
     company_name: "Fiverr",
-    icon: tesla,
+    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn7j72atakY6MHFWxzbnz23bQn9rwrzRfNNg&s',
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Present",
     points: [
@@ -148,11 +148,21 @@ export const EXPERIENCES = [
   {
     title: "CodeEvent",
     company_name: "Software company",
-    icon: shopify,
+    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjs9J__YL7Q4wWT2raIyMjAwhFZj66KTw3yg&s',
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
       "I worked as a full-stack developer in code-event company."
+    ],
+  },
+  {
+    title: "Graphic Designer",
+    company_name: "Self",
+    icon: 'https://cdn-icons-png.freepik.com/512/8361/8361102.png',
+    iconBg: "#383E56",
+    date: "Jan 2020 - Present",
+    points: [
+      "Created 3D models, animations, and visual effects for various projects using Blender"
     ],
   },
 ] as const;
