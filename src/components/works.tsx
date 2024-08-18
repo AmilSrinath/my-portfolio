@@ -1,7 +1,7 @@
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
-import { github, preview } from "../assets";
+import { github } from "../assets";
 import { PROJECTS } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
@@ -40,18 +40,6 @@ const ProjectCard = ({
 
         {/* Live Site */}
         <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-          <div
-            onClick={() => window.open("_blank", "noreferrer")}
-            className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-          >
-            <img
-              src={preview}
-              alt="Live Site"
-              title="Live Site"
-              className="w-2/3 h-2/3 object-contain"
-            />
-          </div>
-
           {/* Github */}
           <div
             onClick={() =>
