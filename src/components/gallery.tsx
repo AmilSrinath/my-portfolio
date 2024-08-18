@@ -13,6 +13,10 @@ import Img10 from '../assets/img/D0157019-DE73-4718-8963-9390C6F17C46_1_105_c.jp
 import Img11 from '../assets/img/E3D652D8-1C6C-4D84-AEB8-86CE454EF668_1_105_c.jpeg';
 import Img12 from '../assets/img/7BC2AA09-0757-4D15-8CB5-8B84A0A5D1F1_1_105_c.jpeg';
 import { useState } from 'react';
+import {motion} from "framer-motion";
+import {textVariant} from "../utils/motion.ts";
+import {styles} from "../styles.ts";
+import {SectionWrapper} from "../hoc";
 
 // Define a type for the image data
 interface ImageData {
@@ -46,7 +50,14 @@ export default function Gallery() {
   }
 
   return (
+      <SectionWrapper>
       <>
+        {/* Title */}
+        <motion.div variants={textVariant()}>
+          <p className={styles.sectionSubText}>My</p>
+          <h2 className={styles.sectionHeadText}>Gallery.</h2>
+        </motion.div>
+
         <div className={model ? "model open" : "model"}>
           <img src={tempimgSrc} alt="Enlarged view" />
           <CloseIcon onClick={() => setModel(false)} />
@@ -60,5 +71,6 @@ export default function Gallery() {
           ))}
         </div>
       </>
+      </SectionWrapper>
   );
 }
